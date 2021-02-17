@@ -14,6 +14,8 @@ public abstract class BaseTest {
     protected static String token;
     protected static String username;
     protected static Map<String, String> headers = new HashMap<>();
+    public static final String getImageFavourite = "/image/{imageHash}/favorite";
+    public static final String postImage = "/image/{imageHash}";
 
     @BeforeAll
     static void beforeAll() {
